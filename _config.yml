@@ -1,0 +1,21 @@
+name: Rajat Vikram Singh
+author: Rajat Vikram Singh
+url: "localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: null
+
+navigation:
+    - title: home
+      link: /
+    - title: research
+      link: /research.html
+    - title: blog
+      link: /blog/
+    - title: contact
+      link: /contact.html
+    - title: etc
+      link: /misc.html
