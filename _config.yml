@@ -1,6 +1,6 @@
 name: Rajat Vikram Singh
 author: Rajat Vikram Singh
-url: "http://rajatvikramsingh.github.io"
+url: "http://localhost:4000"
 
 paginate: 10
 
@@ -8,14 +8,3 @@ markdown: rdiscount
 permalink: pretty
 highlighter: null
 
-navigation:
-    - title: home
-      link: /
-    - title: projects
-      link: /projects.html
-    - title: resume
-      link: /resume/resume.pdf
-    - title: contact
-      link: /contact.html
-#    - title: etc
-#      link: /misc.html
