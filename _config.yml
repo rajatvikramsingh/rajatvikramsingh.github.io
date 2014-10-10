@@ -1,8 +1,12 @@
 name: Rajat Vikram Singh
 author: Rajat Vikram Singh
+<<<<<<< HEAD
 url: "http://rajatvikramsingh.github.io:4000"
 title: Rajat Vikram Singh
 tagline: Personal Website
+=======
+url: "http://rajatvikramsingh.github.io"
+>>>>>>> 29fa2816fac835521ce281fa4108ead3da3ad1ba
 
 paginate: 10
 
