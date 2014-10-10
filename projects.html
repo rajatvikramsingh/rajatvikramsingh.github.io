@@ -1,0 +1,54 @@
+---
+title: Projects
+layout: default
+permalink: /projects.html
+---
+<div>
+<h3><strong>Publication</strong></h3>
+{% for page in site.pages %}	
+{% if page.category == 'publication' %}
+<h3 style="color:#428bca">{{ page.title }}</h3>
+<dl>
+   <dt>
+      <p class="lead text-left">{{ page.Title }}</p>
+   </dt>
+   <dd>{{ page.members }}<br> {{ page.description }}</dd>
+   <br>   
+   <dt>Abstract:</dt>
+   <dd> {{ page.content }}</dd>
+</dl>
+{% endif %}
+{% endfor %}
+<br>
+<h3><strong>Graduation Project</strong></h3>
+{% for page in site.pages %}	
+{% if page.category == 'graduation-project' %}
+<h3 style="color:#428bca">{{ page.title }}</h3>
+<dl>
+   <dt>
+      <p class="lead text-left">{{ page.Title }}</p>
+   </dt>
+   <dd>{{ page.members }}<br> {{ page.description }}</dd>
+   <br>   
+   <dt>Abstract:</dt>
+   <dd> {{ page.content }}</dd>
+</dl>
+{% endif %}
+{% endfor %}
+<h3><strong>Academic Projects</strong></h3>
+{% for page in site.pages %}	
+{% if page.category == 'project' %}
+<h3 style="color:#428bca">{{ page.title }}</h3>
+<dl>
+   <dt>
+      <p class="lead text-left">{{ page.Title }}</p>
+   </dt>
+   <dd>{{ page.members }}<br> {{ page.description }}</dd>
+   <br>   
+   <dt>Abstract:</dt>
+   <dd> {{ page.content }}</dd>
+</dl>
+{% endif %}
+{% endfor %}
+    </div>
+</div>
