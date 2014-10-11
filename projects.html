@@ -4,10 +4,10 @@ layout: default
 permalink: /projects.html
 ---
 <div>
-<h3><strong>Publication</strong></h3>
+<h2><strong>Publication</strong></h2>
 {% for page in site.pages %}	
 {% if page.category == 'publication' %}
-<h3 style="color:#428bca">{{ page.title }}</h3>
+<h3>{{ page.title }}</h3>
 <dl>
    <dt>
       <p class="lead text-left">{{ page.Title }}</p>
@@ -20,10 +20,10 @@ permalink: /projects.html
 {% endif %}
 {% endfor %}
 <br>
-<h3><strong>Graduation Project</strong></h3>
+<h2><strong>Graduation Project</strong></h2>
 {% for page in site.pages %}	
 {% if page.category == 'graduation-project' %}
-<h3 style="color:#428bca">{{ page.title }}</h3>
+<h3>{{ page.title }}</h3>
 <dl>
    <dt>
       <p class="lead text-left">{{ page.Title }}</p>
@@ -35,10 +35,10 @@ permalink: /projects.html
 </dl>
 {% endif %}
 {% endfor %}
-<h3><strong>Academic Projects</strong></h3>
+<h2><strong>Academic Projects</strong></h2>
 {% for page in site.pages %}	
 {% if page.category == 'project' %}
-<h3 style="color:#428bca">{{ page.title }}</h3>
+<h3>{{ page.title }}</h3>
 <dl>
    <dt>
       <p class="lead text-left">{{ page.Title }}</p>
