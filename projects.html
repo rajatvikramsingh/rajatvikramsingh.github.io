@@ -19,7 +19,6 @@ permalink: /projects.html
 </dl>
 {% endif %}
 {% endfor %}
-<br>
 <h2><strong>Graduation Project</strong></h2>
 {% for page in site.pages %}	
 {% if page.category == 'graduation-project' %}
@@ -39,7 +38,7 @@ permalink: /projects.html
 {% for page in site.pages %}	
 {% if page.category == 'project' %}
 <h3>{{ page.title }}</h3>
-<dl>
+<!--dl>
    <dt>
       <p class="lead text-left">{{ page.Title }}</p>
    </dt>
@@ -47,8 +46,23 @@ permalink: /projects.html
    <br>   
    <dt>Abstract:</dt>
    <dd> {{ page.content }}</dd>
-</dl>
+</dl-->
+<p class="lead text-left">{{ page.Title }}</p>
+{{ page.members }}<br> {{ page.description }}
+   <br> <br>  
+<!--strong>Abstract:</strong-->
+{{ page.content }}
 {% endif %}
-{% endfor %}
+{% endfor %}   
+ <h2><strong>Other Academic Projects</strong></h2>
+    <ul>
+        <li><strong>Gaussian Mixture Models</strong> – Modelling the fingerprint scores based on probabilistic distributions under the UID as Winter Intern in the Biometrics Lab in IIIT-Delhi.</li>
+        <li><strong>Earth Impact Prediction Location System</strong> – Creating a system to predict the meteor impacts based on Non-Parametric Density Estimation Methods.</li>
+        <li><strong>Virtual Tourist Portal Creation</strong> – A web portal for serving queries of users to rank hotels on the basis of different services based on the comments on virtualtourist.com.</li>
+        <li><strong>Workflow Management System for Recruitment Agency</strong> –Developed an industrial strength software system for managing the workflow of a recruitment agency for Lecan Solutions Pvt. Ltd.</li>
+        <li><strong>Piracy in India</strong> – A quantitative and qualitative study to understand the causes and suggest solution to one of the biggest problems which the music and movie industry faces worldwide piracy.</li>
+    </ul>
+<br>
+<br>
     </div>
 </div>

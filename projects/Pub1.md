@@ -7,3 +7,4 @@ category: publication
 ---
 
 Manual numbering & plane prescription along spinal MRI image is a tedious and time consuming task. This paper describes a technology for automatic annotation, numbering, and oblique axial plane prescription along the vertebral column. A robust solution was developed for cervical, thoracic, and lumbar regions.
+[[Link]](http://cds.ismrm.org/protected/12MPosters/Abstracts/3392.pdf)
