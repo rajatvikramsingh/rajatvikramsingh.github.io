@@ -6,4 +6,4 @@ description: Winter Break Software Engineering Development Project
 category: project
 ---
 
-Designed and developed an assessment management system to generate random inspection schedule and maintain information about assessments done by [MCI](http://www.mciindia.org/).
+Designed and developed an assessment management system to generate random inspection schedule and maintain information about assessments done by [MCI](http://www.mciindia.org/). [[Media Coverage]](http://timesofindia.indiatimes.com/india/Tighter-norms-for-inspection-of-med-colleges/articleshow/7745821.cms)

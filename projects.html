@@ -4,56 +4,54 @@ layout: default
 permalink: /projects.html
 ---
 <div>
-<h2><strong>Publication</strong></h2>
+<h3><strong>Publication</strong></h3>
+    <br>
 {% for page in site.pages %}	
 {% if page.category == 'publication' %}
-<h3>{{ page.title }}</h3>
 <dl>
    <dt>
-      <p class="lead text-left">{{ page.Title }}</p>
+      <h4><p class="text-left"><strong>{{ page.title }}</strong></p></h4>
    </dt>
-   <dd>{{ page.members }}<br> {{ page.description }}</dd>
-   <br>   
+   <dd>{{ page.members }}<br> {{ page.description }}</dd> 
+    <br>
    <dt>Abstract:</dt>
    <dd> {{ page.content }}</dd>
 </dl>
 {% endif %}
 {% endfor %}
-<h2><strong>Graduation Project</strong></h2>
+    <hr>
+<h3><strong>Graduation Project</strong></h3>
+    <br>
 {% for page in site.pages %}	
 {% if page.category == 'graduation-project' %}
-<h3>{{ page.title }}</h3>
 <dl>
    <dt>
-      <p class="lead text-left">{{ page.Title }}</p>
+      <h4><p class="text-left"><strong>{{ page.title }}</strong></p></h4>
    </dt>
-   <dd>{{ page.members }}<br> {{ page.description }}</dd>
-   <br>   
+   <dd>{{ page.members }}<br> {{ page.description }}</dd> 
+     <br>
    <dt>Abstract:</dt>
    <dd> {{ page.content }}</dd>
 </dl>
 {% endif %}
 {% endfor %}
-<h2><strong>Academic Projects</strong></h2>
+    <hr>
+<h3><strong>Academic Projects</strong></h3>
 {% for page in site.pages %}	
 {% if page.category == 'project' %}
-<h3>{{ page.title }}</h3>
-<!--dl>
+<dl>
    <dt>
-      <p class="lead text-left">{{ page.Title }}</p>
+      <h4><p class="text-left"><strong>{{ page.title }}</strong></p></h4>
    </dt>
-   <dd>{{ page.members }}<br> {{ page.description }}</dd>
-   <br>   
+   <dd>{{ page.members }}<br> {{ page.description }}</dd> 
+     <br>
    <dt>Abstract:</dt>
    <dd> {{ page.content }}</dd>
-</dl-->
-<p class="lead text-left">{{ page.Title }}</p>
-{{ page.members }}<br> {{ page.description }}
-   <br> <br>  
-<!--strong>Abstract:</strong-->
-{{ page.content }}
+</dl> 
+    <br>
 {% endif %}
-{% endfor %}   
+{% endfor %}  
+    <hr>
  <h2><strong>Other Academic Projects</strong></h2>
     <ul>
         <li><strong>Gaussian Mixture Models</strong> – Modelling the fingerprint scores based on probabilistic distributions under the UID as Winter Intern in the Biometrics Lab in IIIT-Delhi.</li>
