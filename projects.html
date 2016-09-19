@@ -37,8 +37,7 @@ permalink: /projects.html
 {% endfor %}
     <hr>
 <h3><strong>Academic Projects</strong></h3>
-{% assign sorted_pages = site.pages | sort:"name" %}
-{% for page in sorted_pages %}	
+{% for page in site.pages | sort: "name" %}	
 {% if page.category == 'project' %}
 <dl>
    <dt>
