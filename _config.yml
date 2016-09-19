@@ -6,6 +6,6 @@ tagline: Personal Website
 
 paginate: 10
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highlighter: null
