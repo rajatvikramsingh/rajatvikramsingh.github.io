@@ -1,9 +1,9 @@
 ---
-title: Face Mosaicing
+title: Expression Detection from Sequence of Images using Support Vector Machines
 layout: default
-members: Rajat Vikram Singh, Charvi Puri, Saurav Maitra
-description: Image Analysis Course Project
+members: Rajat Vikram Singh
+description: Machine Learning Course Project
 category: project
 ---
 
-Face is the most easily observable characteristic feature of a human. The main challenge in face mosaicing lies in the variation in face images like pose, illumination, and expression, among which pose is the hardest to deal with. In the due course of completing our project we took help from two papers which have been the foundation of the project work that has been done by us. In “A Multi-Resolution Spline with Application To Image Mosaics” the authors define a multiresolution technique for combining two or more images into larger image mosaic. In “A Mosaicing Scheme for Pose-Invariant Face Recognition” two side profile images are aligned with the frontal images to provide a composite face image. This paper has been the basis of our implementation of the algorithm of the course project. [[Report]](/media/FaceMosaicing.pdf)
+Facial expression constitutes 55 percent of the effect of a communicated message and is hence a major modality in human communication. Literature establishes that there are six basic emotions that a person shows. Most of the emotions can be mapped as a combination of these emotions. These emotions are: Joy, Sad, Disgust, Anger, Surprise and Fear. A lot of different approaches have been developed for this problem. The solutions revolve around techniques in feature extraction to machine learning techniques. In the project, a paper which talks about recognising facial expressions in real time video using support vector machines was implemented. The paper talks about using a Support Vector Machines, on the features extracted from the consecutive frames of an expression using active shape models trained for facial features. [[Report]](/media/ExpressionDetection.pdf)

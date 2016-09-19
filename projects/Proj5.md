@@ -1,12 +1,9 @@
 ---
-title: Video Tampering Detection using Digital Image Watermarking
+title: Face Mosaicing
 layout: default
 members: Rajat Vikram Singh, Charvi Puri, Saurav Maitra
-description: Internship Project @ Image Analysis and Biometrics Lab, IIITD
+description: Image Analysis Course Project
 category: project
 ---
 
-The problem of Video Authentication has been explored widely by researchers across the globe hence there are many algorithms presently available on this topic. The two main approaches generally seen are – digital signature and digital watermarking. Digital watermarking uses visual feature extraction and embeds them into the underlying frame of the video, whereas digital signature schemes often add some information in the frame which is visible to the user. 
-In this project, we proposed a robust digital watermarking algorithm which counters all the global attacks that are used to alter the content of the video: frame addition, removal, shuffle and object addition and removal. 
-As part of the project, two existing algorithms were implemented as baseline. Among the algorithms implemented, one was entropy based algorithm and the other was based on the measures of decay in wavelet transform of the frames.
-The solution we proposed used both inter-frame and intra-frame image properties. We used properties like edges within frame and the hamming distance between consecutive frames, to form a vector which is watermarked in the image in the form of pre-defined pixel-value manipulations. This vector is recovered from the watermark and matched with the vector recovered from the video to check for tampering.
+Face is the most easily observable characteristic feature of a human. The main challenge in face mosaicing lies in the variation in face images like pose, illumination, and expression, among which pose is the hardest to deal with. In the due course of completing our project we took help from two papers which have been the foundation of the project work that has been done by us. In “A Multi-Resolution Spline with Application To Image Mosaics” the authors define a multiresolution technique for combining two or more images into larger image mosaic. In “A Mosaicing Scheme for Pose-Invariant Face Recognition” two side profile images are aligned with the frontal images to provide a composite face image. This paper has been the basis of our implementation of the algorithm of the course project. [[Report]](/media/FaceMosaicing.pdf)
