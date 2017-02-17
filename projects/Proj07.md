@@ -1,9 +1,9 @@
 ---
-title: Information Seeking Support System for Low Literacy Users
+title: Face Mosaicing
 layout: default
-members: Hemank Lamba, Rajat Vikram Singh, Sunpreet Singh Arora
-description: Information Retrieval Course Project
+members: Rajat Vikram Singh, Charvi Puri, Saurav Maitra
+description: Image Analysis Course Project
 category: project
 ---
 
-A query optimizing module to work on top of existing search engines to help low-literacy users. 
+Face is the most easily observable characteristic feature of a human. The main challenge in face mosaicing lies in the variation in face images like pose, illumination, and expression, among which pose is the hardest to deal with. In the due course of completing our project we took help from two papers which have been the foundation of the project work that has been done by us. In [A Multi-Resolution Spline with Application To Image Mosaics](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.690&rep=rep1&type=pdf) the authors define a multiresolution technique for combining two or more images into larger image mosaic. In [A Mosaicing Scheme for Pose-Invariant Face Recognition](http://www.cse.msu.edu/~rossarun/pubs/SinghFaceMosaicing_SMCB07.pdf) two side profile images are aligned with the frontal images to provide a composite face image. This paper has been the basis of our implementation of the algorithm of the course project. [[Report]](/media/FaceMosaicing.pdf)

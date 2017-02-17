@@ -1,8 +1,8 @@
 ---
-title: Supplier – Retailer Shrinkage Management, LH Ventures
+title: Deep Learning 
 layout: default
-members: Rajat Vikram Singh, Ankita Dutt, Abhishek Singh, Panukon Lekhaka, Zhong Zhu
-description: MSE Capstone Project
+members: Rajat Vikram Singh
+description: Deep Learning Individual Project
 category: project
 ---
 

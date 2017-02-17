@@ -1,9 +1,9 @@
 ---
-title: Assessment Management System for Medical Council of India
+title: 3D Object Reconstruction from Hand-Object Interactions
 layout: default
-members: Abhishek, Hemank Lamba, Rajat Vikram Singh, Sunpreet Singh Arora
-description: Winter Break Software Engineering Development Project
+members: Rajat Vikram Singh, Vaibhav Raheja
+description: Computer Vision Course Project
 category: project
 ---
 
-Designed and developed an assessment management system to generate random inspection schedule and maintain information about assessments done by [MCI](http://www.mciindia.org/). [[Media Coverage]](http://timesofindia.indiatimes.com/india/Tighter-norms-for-inspection-of-med-colleges/articleshow/7745821.cms)
+Implemented the 2015 ICCV paper of the same title by Tzionas et al. for the Computer Vision course project. A symmetric, texture-less, feature-less 3D object was reconstructed from 2D images of the object being rotated by a hand. The point cloud of the hand was used to register the object point cloud. 
