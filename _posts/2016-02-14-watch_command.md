@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Watch the filesize of a file you're downloading in terminal
 ---
 Recently I needed to watch the size of a file I was downloading and see how the size was increasing. I came across the command watch on unix. 
